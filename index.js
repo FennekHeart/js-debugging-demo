@@ -1,7 +1,11 @@
+function deduct(a, b) {
+	return a - b;
+}
+
 function sum(a, b) {
     let value1 = a;
-    let value2 = a;
-    let result = valueA + valueB;
+    let value2 = b;
+    let result = value2 + value1;
     return result;
 }
 
@@ -40,6 +44,7 @@ function arraySum(a, b)
 }
 
 
+console.log("deduction: " + deduct(50, 10));
 console.log("sum: " + sum(30, 20));
 console.log("max: " + max(10, 13));
 console.log("factorial: " + factorial(3));
