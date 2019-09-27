@@ -3,9 +3,7 @@ function deduct(a, b) {
 }
 
 function sum(a, b) {
-    let value1 = a;
-    let value2 = b;
-    let result = value1 + value2;
+        let result = a + b;
     return result;
 }
 
